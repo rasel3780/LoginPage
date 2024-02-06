@@ -7,16 +7,22 @@
     </head>
 
     <body>
-        <div class="login">
-            <h2>Login</h2>
+        <div class="login-container">
             <form>
-                <input type="text" name="userName" id="userName" placeholder="Username">
-                <input type="password" id="password" placeholder="Password">
-                <button type="submit" onclick="loginValidation()">Login</button>
+                <h2>Login</h2>
+                <div class="input-container">
+                    <input type="text" name="userName" id="userName" placeholder="Username">
+                </div>
+                <div class="input-container">
+                    <input type="password" id="password" placeholder="Password">
+                </div>
             </form>
-
-            <script src="./js/script.js"></script>
+    
+            <div class="loginFooter">
+                <button type="submit" onclick="loginValidation()">Login</button>
+            </div>
         </div>
+        <script src="./js/script.js"></script>
     </body>
 
 </html>
