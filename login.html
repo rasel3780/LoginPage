@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <div class="login-container">
+            <form>
+                <h2>Login</h2>
+                <div class="input-container">
+                    <input type="text" name="userName" id="userName" placeholder="Username">
+                </div>
+                <div class="input-container">
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+                <div class="input-checkbox">
+                    <input type="checkbox" id="showPass" onclick="showPassword()">
+                    <label for="showPass">Show Password</label>
+                </div>
+                
+            </form>
+            
+            <div class="loginFooter">
+                <button type="submit" onclick="loginValidation()">Login</button>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+
+</html>
